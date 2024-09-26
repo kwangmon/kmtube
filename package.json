@@ -1,0 +1,29 @@
+{
+  "name": "kmtube",
+  "version": "1.0.0",
+  "private": true,
+
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwangmon/kmtube.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwangmon/kmtube/issues"
+  },
+  "homepage": "https://github.com/kwangmon/kmtube#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/node": "^7.25.0",
+    "@babel/preset-env": "^7.25.4",
+    "nodemon": "^3.1.7"
+  }
+}
