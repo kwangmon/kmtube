@@ -1,0 +1,10 @@
+doctype html
+html(lang="ko")
+    head
+        title #{pageTitle} | KmTube
+        link(rel="stylesheet" href="https://unpkg.com/mvp.css")
+    body
+        main
+            h1=pageTitle
+            block content
+    include partials/footer
