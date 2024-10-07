@@ -4,6 +4,12 @@ html(lang="ko")
         title #{pageTitle} | KmTube
         link(rel="stylesheet" href="https://unpkg.com/mvp.css")
     body
+        header
+            h1=pageTitle
+            nav
+                ul
+                    li
+                        a(href="/videos/upload")
         main
             h1=pageTitle
             block content
